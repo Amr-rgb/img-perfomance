@@ -2,7 +2,7 @@ import { BlurredImage } from "./BlurredImage";
 
 export const Hero = () => {
   return (
-    <section className="py-20 md:pb-0 bg-[url(/assets/sky.jpg)] bg-cover bg-center bg-no-repeat max-h-min relative">
+    <section className="py-20 md:pb-0 bg-[url(/assets/sky.jpg)] bg-cover bg-center bg-no-repeat text-white max-h-min relative">
       <div className="px-4 flex flex-col items-center relative">
         <div className="relative w-40 md:w-44">
           <BlurredImage

@@ -22,12 +22,16 @@ export const BlurredImage = ({ src, base64 }) => {
   return (
     <>
       <img
-        className={`absolute duration-500 ${loaded ? "" : "opacity-0"}`}
+        className={`w-full h-full object-cover absolute duration-500 ${
+          loaded ? "" : "opacity-0"
+        }`}
         src={src}
         alt=""
       />
       <img
-        className={`duration-500 ${loaded ? "opacity-0" : ""}`}
+        className={`w-full h-full object-cover duration-500 ${
+          loaded ? "opacity-0" : ""
+        }`}
         src={base64}
         alt=""
       />

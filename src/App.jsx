@@ -1,9 +1,11 @@
+import { Blog } from "./components/blog";
 import { Hero } from "./components/Hero";
 
 function App() {
   return (
-    <div className="App text-white">
+    <div className="App">
       <Hero />
+      <Blog />
     </div>
   );
 }
