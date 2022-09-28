@@ -1,4 +1,4 @@
-import { Blog } from "./components/blog";
+import { Blog } from "./components/Blog";
 import { Hero } from "./components/Hero";
 
 function App() {
