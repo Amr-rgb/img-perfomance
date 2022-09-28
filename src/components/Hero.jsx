@@ -11,7 +11,7 @@ export const Hero = () => {
           />
         </div>
 
-        <h1 className="mt-8 mb-20 font-medium text-2xl text-center md:text-4xl md:max-w-3xl lg:text-5xl lg:max-w-[49rem]">
+        <h1 className="mt-8 mb-20 h-32 lg:h-56 font-medium text-2xl text-center md:text-4xl md:leading-tight md:max-w-3xl lg:text-5xl lg:leading-tight lg:max-w-[49rem]">
           Confidently Ship Well-Architected Production Ready React Apps Like a
           Pro
         </h1>
