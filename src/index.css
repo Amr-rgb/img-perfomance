@@ -4,6 +4,6 @@
 
 @layer components {
   body {
-    @apply h-screen font-inter overflow-x-hidden;
+    @apply bg-[#0e182a] text-white h-screen font-inter overflow-x-hidden;
   }
 }
